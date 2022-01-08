@@ -1,0 +1,5 @@
+script.Parent.ClickDetector.MouseClick:Connect(function()
+	script.Parent.BodyGyro.MaxTorque = Vector3.new(400000, 0, 400000)
+	wait(1)
+	script.Parent.BodyGyro.MaxTorque = Vector3.new(0, 0, 0)
+end)
